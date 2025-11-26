@@ -1,0 +1,6 @@
+[submodule "rdzwx-go"]
+	path = rdzwx-go
+	url = git@github.com:trickv/rdzwx-go.git
+[submodule "rdzwx-plugin"]
+	path = rdzwx-plugin
+	url = git@github.com:trickv/rdzwx-plugin.git
