@@ -9,6 +9,12 @@
   - Remove stale sondes from map display
   - Consider visual indicator for "aging" sondes before removal
 
+- [ ] **UI/UX Improvements**: Add tooltips or help text for icons/buttons
+  - Implement tooltip system for mobile (long-press or info icons)
+  - Add descriptive labels or hints for UI controls
+  - Ensure users understand what each icon/button does
+  - Consider onboarding flow or help overlay for first-time users
+
 ## iOS Port - Bug Fixes
 
 - [ ] **Fix prediction not working on iOS**
