@@ -71,6 +71,21 @@
 - [ ] Keep plugin changes synchronized across platforms
 - [ ] Document platform-specific quirks and workarounds
 
+## Project Architecture (Long-term Considerations)
+
+- [ ] **Monorepo Consolidation**: Merge separate git repos into single repository
+  - Currently: `rdzwx-go/` (main app) and `rdzwx-plugin/` (custom plugin) are separate
+  - Investigate if Cordova can handle monorepo structure
+  - Consider impacts on plugin development workflow
+  - Evaluate benefits: simpler version management, atomic commits across app+plugin
+
+- [ ] **Framework Evaluation**: Reassess whether Cordova is the right choice
+  - Consider modern alternatives: React Native, Flutter, Capacitor, native Swift/Kotlin
+  - Evaluate trade-offs: development velocity, performance, platform capabilities
+  - Analyze offline mapping requirements for each framework
+  - Consider migration path if refactor is warranted
+  - Document pros/cons of current Cordova approach vs alternatives
+
 ## Future Enhancements
 
 - [ ] App Store submission pipeline for iOS
