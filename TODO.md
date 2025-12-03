@@ -5,6 +5,7 @@
 - [ ] **Stale Sonde Handling**: When a sonde is stale (no data after X time) it should drop off the map
   - Define staleness timeout threshold (e.g., 5 minutes, 10 minutes)
   - Implement timer/timeout logic to track last update per sonde
+  - Show a timer displaying how old the data point on screen is (e.g., "2m ago", "15s ago")
   - Remove stale sondes from map display
   - Consider visual indicator for "aging" sondes before removal
 
