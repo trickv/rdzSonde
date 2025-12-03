@@ -9,6 +9,19 @@
   - Remove stale sondes from map display
   - Consider visual indicator for "aging" sondes before removal
 
+## iOS Port - Bug Fixes
+
+- [ ] **Fix prediction not working on iOS**
+  - Investigate why prediction feature fails on iOS
+  - Test prediction algorithms and data flow
+  - Ensure iOS-specific coordinate calculations are correct
+
+- [ ] **Fix mDNS not working on iOS**
+  - Debug NSNetServiceBrowser implementation in MDNSHandler
+  - Verify Bonjour service discovery for `_jsonrdz._tcp`
+  - Test on actual iOS device (may work differently than simulator)
+  - Check iOS network permissions and Info.plist configuration
+
 ## iOS Port - Remaining Work
 
 ### Phase 4: Offline Mapping (Most Complex)
