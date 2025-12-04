@@ -34,6 +34,13 @@
   - Test on actual iOS device (may work differently than simulator)
   - Check iOS network permissions and Info.plist configuration
 
+- [ ] **Fix background/foreground connection loss on iOS**
+  - When app goes to background and returns, connection to TTGO is lost
+  - Connection never automatically reconnects (must kill and restart app)
+  - Implement proper app lifecycle handling (UIApplicationDidEnterBackground, etc.)
+  - Add connection monitoring and automatic reconnection logic
+  - Handle TCP socket cleanup and recreation when app returns to foreground
+
 ## iOS Port - Remaining Work
 
 ### Phase 4: Offline Mapping (Most Complex)
